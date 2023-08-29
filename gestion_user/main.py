@@ -11,6 +11,7 @@ template = Jinja2Templates(directory='public/templates')
 DATABASE_URL = "mysql://root:@localhost/gestion_user"
 database = databases.Database(DATABASE_URL)
 
+#pip install databases
 
 
 @app.on_event("startup")
